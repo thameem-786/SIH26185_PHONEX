@@ -88,11 +88,9 @@ SECURE RADIO / SDR
 **Concept also includes:**
 - Dual-band CDIMPA antenna element
 - Flexible/conformal integration
-- Underside RF shielding / AMC concept 🟡 *under evaluation*
+- Underside RF shielding / AMC concept 
 - Conformal array architecture
 - Ruggedized coaxial routing
-
-> ⚠️ **Status note:** RF shielding/AMC has been discussed in the original concept but is **not finalized**. Present as *under evaluation* until the team makes a final selection.
 
 ---
 
