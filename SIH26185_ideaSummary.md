@@ -32,10 +32,7 @@
 23. [Impact and Benefits](#23-impact-and-benefits)
 24. [Research Basis](#24-research-basis)
 25. [Final System Architecture](#25-final-system-architecture)
-26. [Evaluator-Focused Technical Story](#26-evaluator-focused-technical-story)
-27. [30-Second Pitch](#27-30-second-pitch)
-28. [Key PPT Keywords](#28-key-ppt-keywords)
-29. [Final Design Position to Keep Consistent](#29-final-design-position-to-keep-consistent)
+    
 
 ---
 
@@ -160,10 +157,6 @@ ANTENNA → RF FEED → ~40 cm TARGET ROUTING → RUGGEDIZED CONNECTOR → RADIO
 
 **Essential routing principles:** Short RF path • Controlled bend radius • Proper clearance • Secure termination
 
-> **Recommended PPT wording:**
-> *"A continuous approximately 40 cm coaxial path is routed with a short RF path, controlled bends, adequate clearance, and a ruggedized RF termination for reliable connection to the tactical radio/SDR."*
-
-> ⚠️ **Design note:** 40 cm is a **target/design estimate** until final helmet geometry, feed position, connector position, and actual cable are fixed and measured.
 
 ---
 
@@ -187,7 +180,7 @@ Operating frequency • Cable type • Connector loss • Bend radius • Impeda
 
 $$L_{total} = L_{coax} + L_{connector} + L_{interface} + L_{other}$$
 
-> ⚠️ Actual numerical loss must come from the selected coax/connector datasheets — 40 cm alone does not determine the loss.
+
 
 ---
 
@@ -209,7 +202,6 @@ Mutual coupling is identified as a design challenge; mitigation is via optimized
 
 ## 8. RF Shielding / Radiation Control
 
-🟡 **Status: Under Evaluation**
 
 The original concept includes a conductive shielding / AMC layer beneath the antenna.
 
@@ -465,8 +457,6 @@ Simulation is stated as completed in the presented concept.
 4. Conformal antennas for future public-safety communications
 5. Flexible dual-band antennas with AMC backing for wearable applications
 
-These support the general feasibility of conformal helmet antenna architectures and related RF analysis methods.
-
 ---
 
 ## 25. Final System Architecture
@@ -498,60 +488,4 @@ These support the general feasibility of conformal helmet antenna architectures 
                        AES-256
                           ↓
                 SECURE COMMUNICATION
-```
 
----
-
-## 26. Evaluator-Focused Technical Story
-
-| Stage | Summary |
-|---|---|
-| **Problem** | Rigid protruding whip antennas create mobility/snagging problems; urban building materials cause RF attenuation and fading |
-| **Solution** | TactiBand places a compact dual-band conformal antenna on the helmet, connected to the tactical radio/SDR via a controlled RF feed path |
-| **Innovation** | CDIMPA interlocked/slot-loaded geometry for compact dual-band operation; curvature-aware design for helmet integration |
-| **RF Interface** | Compact, mechanically controlled coax path terminated through a ruggedized RF connector |
-| **Security** | TactiBand handles the RF/physical antenna layer; the connected secure radio/SDR provides COMSEC, TRANSEC, FHSS, AES-256, and interoperability |
-| **Validation** | EM analysis, prototype fabrication, VNA measurements, and spectrum analysis (where applicable) |
-
----
-
-## 27. 30-Second Pitch
-
-> **TactiBand is a low-profile helmet-conformal dual-band antenna architecture for tactical communication in urban CQB. Its CDIMPA interlocked slot geometry creates dual resonant current paths for UHF and L-band operation, while the conformal structure and optimized coaxial routing provide a compact RF connection to the tactical radio or SDR. RF isolation and radiation control are being evaluated at the antenna layer, while higher-level security such as COMSEC, TRANSEC, FHSS and AES-256 is handled by the connected secure communication system. The development path is simulation, prototype fabrication, and VNA-based validation.**
-
----
-
-## 28. Key PPT Keywords
-
-| Category | Keywords |
-|---|---|
-| **Antenna** | CDIMPA • Interlocked Slot • Dual Resonance • UHF • L-band • Conformal Antenna |
-| **Mechanical / RF Interface** | Low Profile • 40 cm Target Coax • Short RF Path • Controlled Bend Radius • Proper Clearance • Ruggedized Connector |
-| **RF Performance** | S11 • S21/S12 • Mutual Coupling • Far Field • Surface Current • Radiation Pattern • Attenuation • VSWR |
-| **Security** | COMSEC • TRANSEC • FHSS • AES-256 • IRSA • Secure Radio/SDR |
-| **Validation** | CST • Sonnet • Prototype • VNA • Spectrum Analyzer |
-
----
-
-## 29. Final Design Position to Keep Consistent
-
-✅ **Confirmed concept:**
-CDIMPA, helmet-conformal antenna, dual-band UHF/L-band target, coaxial RF interface, ruggedized connector, simulation/validation workflow
-
-🟡 **Under evaluation:**
-AMC / RF shielding method
-
-❌ **Do not claim:**
-- TactiBand itself performs AES-256, COMSEC, TRANSEC, or FHSS
-- The antenna makes RF transmission undetectable
-- A fixed coax attenuation value without the actual cable datasheet or measurement
-
-✅ **Use instead:**
-Controlled radiation, RF isolation, compact routing, and secure-radio integration as the layered security story.
-
----
-
-## Source Files
-
-- `PHONEX (1).pptx` — SIH26185 TactiBand concept, technical approach, feasibility, impact, and references
-- `SECURITY APPROACH.docx` — COMSEC, TRANSEC, FHSS, AES-256, IRSA, SDR, and TactiBand security-layer explanation
