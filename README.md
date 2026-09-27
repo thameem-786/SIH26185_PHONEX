@@ -97,7 +97,7 @@ The coaxial cable is the RF connection between the antenna and the tactical radi
 | Helmet-conformal integration | Confirmed concept |
 | Coaxial RF feed & routing | Confirmed concept |
 | Ruggedized RF connector | Confirmed concept |
-| RF shielding / AMC layer | **Under evaluation** — not finalized |
+| RF shielding / AMC layer | Confirmed concept|
 
 ---
 
