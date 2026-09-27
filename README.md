@@ -130,3 +130,4 @@ LICENSE → MIT License
 | Sarveshwaran | CDIMPA Geometry |
 | Nidharshan | Curvature Analysis |
 | Jayashree | Material Study & Validation / Judge Q&A |
+by Team PHONEX
