@@ -123,10 +123,10 @@ LICENSE → MIT License
 ## Team
 
 | Name | Role |
-
+|---|---|
 | Nikilesh Mano | RF / Antenna Design Lead |
 | Mohammed Thameem | Requirements & Frequency Extraction |
-| Hari kumarran| Baseline Micro-Patch Model |
+| Hari kumarran | Baseline Micro-Patch Model |
 | Sarveshwaran | CDIMPA Geometry |
 | Nidharshan | Curvature Analysis |
 | Jayashree | Material Study & Validation / Judge Q&A |
