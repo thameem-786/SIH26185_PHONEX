@@ -158,11 +158,4 @@ To keep judge-facing claims accurate and defensible:
 | Detectability | RF signal detectable via spectrum analyzer regardless of antenna | Same — TactiBand does not claim reduced detectability, only controlled radiation direction |
 | Network compatibility | Depends on existing radio/MANET stack | Same stack — TactiBand is a drop-in RF interface, not a new protocol |
 
-### 9.3 Net Difference
 
-> **What changes:** physical antenna placement, form factor, snagging risk, and radiation-pattern control at the antenna level.
-> **What does not change:** the encryption, transmission-security, and networking functions — these remain exactly as they are in the existing secure radio/SDR, whether paired with a conventional whip antenna or with TactiBand.
-
-This distinction is important to state explicitly to evaluators: TactiBand's innovation is at the **mechanical and RF-physical layer**, not a security-protocol innovation. Its indirect security benefit is improved physical link reliability (via reduced snagging and helmet-level placement), which supports — but does not replace — the radio's own security stack.
-
----
