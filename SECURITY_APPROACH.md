@@ -166,7 +166,3 @@ To keep judge-facing claims accurate and defensible:
 This distinction is important to state explicitly to evaluators: TactiBand's innovation is at the **mechanical and RF-physical layer**, not a security-protocol innovation. Its indirect security benefit is improved physical link reliability (via reduced snagging and helmet-level placement), which supports — but does not replace — the radio's own security stack.
 
 ---
-
-## Source
-
-Content drawn from the "Problem/Our Idea," "Technical Approach," and "Impact and Benefits" slides of the PHONEX team's SIH26185 pitch deck (`PHONEX.pptx` / `PHONEX.pdf`).
