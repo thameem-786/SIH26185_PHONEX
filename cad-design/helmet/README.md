@@ -17,9 +17,30 @@ The CAD model demonstrates the proposed integration of the conformal antenna arr
 
 ## CAD Software
 
-- **Software:** SOLIDWORKS
-- **CAD format:** STEP
-- **Model:** Helmet with integrated antenna placement
+## CAD Views
+## CAD Views
+
+The following views show the team-developed helmet CAD model and the
+proposed TACTIBAND antenna integration.
+
+### Front View
+
+![TACTIBAND Helmet Front View](images/helmet-front.jpeg)
+
+### Side View
+
+![TACTIBAND Helmet Side View](images/helmet-side.jpeg)
+
+### Rear View
+
+![TACTIBAND Helmet Rear View](images/helmet-back.jpeg)
+
+### Isometric View
+
+![TACTIBAND Helmet Isometric View](images/helmet-isometric.jpeg)
+
+These CAD views demonstrate the helmet geometry and the placement of the
+proposed conformal antenna elements on the upper helmet surface.
 
 ## Design Components
 
