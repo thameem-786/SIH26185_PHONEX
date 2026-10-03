@@ -43,7 +43,7 @@ The overall architecture includes:
 
 The proposed electromagnetic analysis workflow is:
 
-```text
+
 Antenna Geometry
        ↓
 Material Definition
@@ -65,4 +65,4 @@ Array / AMC Analysis
 Sonnet Cross-Validation
 
 
-## Antenna CAD Reference
+
